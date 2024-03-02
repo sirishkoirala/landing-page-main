@@ -30,6 +30,7 @@
 }
 .header__active a {
   color: white;
+  font-size: 18px;
   margin-right: 40px;
 }
 .header__nav a:hover {
