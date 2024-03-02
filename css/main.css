@@ -14,6 +14,10 @@
 .header{
   --tw-bg-opacity: 1;
   background-color: rgb(15 23 42 / var(--tw-bg-opacity));
+  position:sticky;
+  z-index: 1;
+  top: 0;
+  left: 0;
 }
 
 .header__nav {
