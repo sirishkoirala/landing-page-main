@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="css/footer.css">
   <link rel="stylesheet" href="css/catelog.css">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-  
+
   <script src="https://unpkg.com/phosphor-icons"></script>
   <script src="js/search.js" defer></script>
 </head>
@@ -39,27 +39,22 @@
           <nav class="header__nav">
             <ul class="dFlexCenter">
               <li class="header__active"><a href="index.html">Home</a></li>
-              <li><a class="header-a  ">Rents</a></li>
+              <li><a class="header-a" href="#house">Rents</a></li>
               <li><a class="header-a" href="#about-us">About us</a></li>
               <li><a class="header-a" href="#contact-us">Contact</a></li>
               <!-- search bar is here -->
-          <input type="text" class="search-box" placeholder="Search...">
-          <button class="search-btn">
-            <i class="ph-magnifying-glass-bold"></i>
-          </button>
+              <input type="text" class="search-box" placeholder="Search...">
+              <button class="search-btn">
+                <i class="ph-magnifying-glass-bold"></i>
+              </button>
             </ul>
-            
+
           </nav>
-          
+
           <!-- login buttons -->
           <div class="dFlexCenter dflexMobileCenter">
             <a href="login.html" class="header__login">Login</a>
             <a href="signup.html" class="header__login">Register</a>
-            <div class="hamburger only__mobile">
-              <div class="bar"></div>
-              <div class="bar"></div>
-              <div class="bar"></div>
-            </div>
           </div>
         </div>
       </div>
@@ -79,9 +74,9 @@
           <img class="intro__border" src="images/line-2.png" />
           <!-- buttons -->
           <div class="intro__butons dFlexCenter dflexMobileFullCenter">
-            <a class="buttons" href="login.html">Buy House</a>
+            <a class="buttons" href="#house">Buy House</a>
             <a class="intro__play dFlexCenter dflexMobileCenter">
-              <a class="buttons" href="login.html">Rent House</a>
+              <a class="buttons" href="#contact-us">Rent House</a>
             </a>
           </div>
         </div>
@@ -94,7 +89,7 @@
     </section>
   </section>
 
-  
+
 
   <!-- section 3 features -->
   <section class="features padding80 position-relative">
@@ -116,21 +111,21 @@
       <div class="features__bottom dFlexCenter dflexMobileCenter">
         <!-- left -->
         <div class="width30">
-          <img width="250px" height="250px" src="images/feature2.png" />
+          <img src="images/feature2.png" />
           <h5 class="features__bottomh5">Buy House</h5>
           <p>Here customers can buy House of their needs</p>
         </div>
         <!-- mid -->
         <div class="width30">
-          <img width="250px" height="250px" src="images/feature1.png"/>
+          <img src="images/feature1.png" />
           <h5 class="features__bottomh5">Sell House</h5>
           <p>
             Here house owners can place their house on sell.
           </p>
         </div>
         <!-- right -->
-        <div  class="width30">
-          <img width="250px" height="250px" src="images/feature3.png" />
+        <div class="width30">
+          <img src="images/feature3.png" />
           <h5 class="features__bottomh5">Rent House</h5>
           <p>
             Here we can find a deal in between house customers and owners.
@@ -139,25 +134,25 @@
       </div>
     </div>
   </section>
-  
- <!-- section 5 tabs -->
- <section class="tabs padding80 position-relative">
-  <div class="container">
-    <h2 class="title text-center">
-      Choose Plan<br />
-      That’s Right For You
-    </h2>
-    <p class="text-center">
-      Choose plan that works best for you, feel free to contact us
-    </p>
 
-  </div>
-  
-</section>
+  <!-- section 5 tabs -->
+  <section id="house" class="tabs padding80 position-relative">
+    <div class="container">
+      <h2 class="title text-center">
+        Choose Plan<br />
+        That’s Right For You
+      </h2>
+      <p class="text-center">
+        Choose plan that works best for you, feel free to contact us
+      </p>
+
+    </div>
+
+  </section>
   <!-- catalogs are displayed here -->
-  
+
   <div class="container-catelog py-5">
-      
+
     <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
       <div class="col">
         <div class="card">
@@ -169,7 +164,7 @@
           </div>
           <div class="mb-5 d-flex justify-content-around">
             <h3>190$</h3>
-            <button class="btn btn-primary">Buy Now</button>
+            <button class="btn btn-primary"><a href="contact-form.html">Buy Now</a></button>
           </div>
         </div>
       </div>
@@ -184,7 +179,7 @@
           </div>
           <div class="mb-5 d-flex justify-content-around">
             <h3>190$</h3>
-            <button class="btn btn-primary">Buy Now</button>
+            <button class="btn btn-primary"><a href="contact-form.html">Buy Now</a></button>
           </div>
         </div>
       </div>
@@ -199,7 +194,7 @@
           </div>
           <div class="mb-5 d-flex justify-content-around">
             <h3>190$</h3>
-            <button class="btn btn-primary">Buy Now</button>
+            <button class="btn btn-primary"><a href="contact-form.html">Buy Now</a></button>
           </div>
         </div>
       </div>
@@ -214,7 +209,7 @@
           </div>
           <div class="mb-5 d-flex justify-content-around">
             <h3>190$</h3>
-            <button class="btn btn-primary">Buy Now</button>
+            <button class="btn btn-primary"><a href="contact-form.html">Buy Now</a></button>
           </div>
         </div>
       </div>
@@ -229,7 +224,7 @@
           </div>
           <div class="mb-5 d-flex justify-content-around">
             <h3>190$</h3>
-            <button class="btn btn-primary">Buy Now</button>
+            <button class="btn btn-primary"><a href="contact-form.html">Buy Now</a></button>
           </div>
         </div>
       </div>
@@ -244,7 +239,7 @@
           </div>
           <div class="mb-5 d-flex justify-content-around">
             <h3>190$</h3>
-            <button class="btn btn-primary">Buy Now</button>
+            <button class="btn btn-primary"><a href="contact-form.html">Buy Now</a></button>
           </div>
         </div>
       </div>
@@ -262,35 +257,56 @@
           Want to sell or rent<br />
           your house ?
         </h2>
-        
-       <!-- form is here -->
-       <div class="contactbox">
-        <form id="contact-form">
-          <input type="text" name="address" placeholder="Home Address">
-          <input type="number" name="price" placeholder="Price">
-          <select name="house-for">
-            <option value="Rent" selected>Rent</option>
-            <option value="Sell">Sell</option>
-          </select>
-          <input type="file" name="house-pictures" accept="image/*" multiple>
-          <textarea name="message" placeholder="Additional Information"></textarea>
-          <input type="submit" value="Submit">
-        </form>
+
+        <!-- form is here -->
+        <div class="contactbox">
+          <form id="contact-form">
+
+            <select name="house-for">
+              <option value="Rent">Rent</option>
+              <option value="Sell" selected>Sell</option>
+            </select>
+            <input type="text" name="address" placeholder="Home Address">
+
+            <input type="number" name="price" placeholder="Price">
+
+            <input type="file" name="house-pictures" accept="image/*" multiple>
+
+            <textarea name="message" placeholder="Additional Information"></textarea>
+
+            <input type="submit" value="Submit">
+
+          </form>
+        </div>
       </div>
-      </div>
+
+      
+
+
       <!-- right -->
       <div class="width50">
         <img src="images/benefits2.png" />
       </div>
     </div>
   </section>
+
+  <div class="white-theme">
+    <div class="contact-container">
+        <h1 class="contact-h1">Contact us</h1>
+        <div class="contact-info">
+            <p><span>Phone:</span> 9898989898</p>
+            <p><span>Email:</span> <a class="emailme" href="mailto:deal@gharnagar.com.np">deal@gharnagar.com.np</a></p>
+            <p><span>Location:</span>Biratnagar</p>
+        </div>
+    </div>
+  </div>
   <!-- section 2 support -->
   <section id="about-us" class="support padding50">
     <div class="container dFlex">
       <!-- left -->
       <div class="width55">
         <h2 class="support__title title">
-          How we SUPPORT our<br />
+          How we support our<br />
           customers all over Nepal
         </h2>
         <p class="support__p">
@@ -302,17 +318,7 @@
         <!-- support rating -->
         <div class="support__rating dFlexCenter dflexMobileFullCenter">
           <!-- left rating -->
-          <div class="support__ratingItem">
-            <img src="images/fivestars.svg" />
-            <span>4.9 / 5 rating</span>
-            <p><b>Buyers</b></p>
-          </div>
-          <!-- right rating -->
-          <div>
-            <img src="images/4stars.svg" />
-            <span>4.8 / 5 rating</span>
-            <p><b>Sellers</b></p>
-          </div>
+          
         </div>
       </div>
       <!-- right -->
@@ -358,33 +364,37 @@
         </div>
       </div>
     </div>
-  
+
     <!-- about us section  -->
     <div name="about-us" class="container">
       <section id="story">
         <h2 class="support__h4">Our Story</h2>
-        <p> 'GharNagar (GN)' - your solution to hassle-free house hunting in Biratnagar. Admins can effortlessly manage properties, while users can easily inquire about their dream homes. Simplifying the search, one click at a time</p>
+        <p> 'GharNagar (GN)' - your solution to hassle-free house hunting in Biratnagar. Admins can effortlessly manage
+          properties, while users can easily inquire about their dream homes. Simplifying the search, one click at a
+          time</p>
       </section>
       <hr>
       <section id="mission">
         <h2 class="support__h4">Our Mission</h2>
-        <p>Primary : To provide a user-friendly platform for individuals seeking accommodation in the Biratnagar area, offering comprehensive and up-to-date listings of available houses.</p>
-      <p>Secondary : Implement a secure user registration and login system to ensure privacy and enable users to manage their listings and preferences.</p>
+        <p>Primary : To provide a user-friendly platform for individuals seeking accommodation in the Biratnagar area,
+          offering comprehensive and up-to-date listings of available houses.</p>
+        <p>Secondary : Implement a secure user registration and login system to ensure privacy and enable users to
+          manage their listings and preferences.</p>
       </section>
     </div>
   </section>
-    
-    <!-- footer section  -->
 
-    <footer id="footer-container">
-      <span id="footer-comment">&copy; 2024 GharNagar. All rights reserved.</span>
-    </footer>
+  <!-- footer section  -->
+
+  <footer id="footer-container">
+    <span id="footer-comment">&copy; 2024 GharNagar. All rights reserved.</span>
+  </footer>
 
 
 
-    <script src="js/main.js" async defer></script>
-    <script src="js/form.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8N
+  <script src="js/main.js" async defer></script>
+  <script src="js/form.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8N
 
 
 </body>

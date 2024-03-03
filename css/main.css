@@ -26,13 +26,18 @@
 .header-a {
   color: #a6a6a6;
   font-size: 18px;
-  margin-right: 40px;
+  margin-right: 30px;
+  position: relative;
+  top: 5px;
 
 }
 .header__active a {
   color: white;
   font-size: 18px;
-  margin-right: 40px;
+  margin-right: 30px;
+  position: relative;
+  top: 5px;
+
 }
 .header__nav a:hover {
   color: white;
@@ -40,7 +45,7 @@
 .header__login {
   color: #a6a6a6;
   font-size: 18px;
-  margin-right: 30px;
+  margin-right: 20px;
 }
 .header__login:hover {
   color: white;
