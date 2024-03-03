@@ -4,33 +4,16 @@
     color: #fff; /* Set text color */
     padding: 20px; /* Add some padding */
     text-align: center; /* Align content to center */
-  }
-  
-  #footer-h2 {
-    font-size: 20px; /* Set font size for h2 */
-    margin-bottom: 10px; /* Add some space below h2 */
-  }
-  
-  #footer-p {
-    font-size: 14px; /* Set font size for p */
-    margin-bottom: 20px; /* Add some space below p */
-  }
-  
-  #footer-button {
-    background-color: #0047ab; /* Set button background color */
-    color: #fff; /* Set button text color */
-    padding: 10px 20px; /* Add padding to button */
-    border: none; /* Remove button border */
-    border-radius: 5px; /* Add some border radius */
-    cursor: pointer; /* Change cursor on hover */
-  }
-  
-  #footer-button:hover {
-    background-color: #002d73; /* Darken button color on hover */
+    font-family: Arial, Helvetica, sans-serif;
   }
   
 .footer-a{
     text-decoration: none;
     color: white;
+}
+#footer-comment{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 14px;
 }
   
